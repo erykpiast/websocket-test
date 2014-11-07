@@ -1,0 +1,49 @@
+{
+  "name": "ws-test",
+  "version": "0.0.2",
+  "description": "WebSocket test",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erykpiast/ws-test.git"
+  },
+  "keywords": [
+    "browserify",
+    "require",
+    "seed",
+    "boilerplate"
+  ],
+  "author": "Eryk Napierała <eryk.piast@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/ws-test/issues"
+  },
+  "homepage": "https://github.com/erykpiast/ws-test",
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "grunt": "~0.4",
+    "grunt-browserify": "~3.0",
+    "grunt-contrib-clean": "~0.5",
+    "grunt-contrib-copy": "~0.5",
+    "grunt-contrib-jshint": "~0.10",
+    "grunt-contrib-uglify": "~0.5",
+    "grunt-contrib-watch": "~0.6",
+    "grunt-http-server": "latest",
+    "grunt-karma": "~0.8",
+    "jshint": "~2.5",
+    "karma": "~0.12",
+    "karma-chrome-launcher": "~0.1",
+    "karma-jasmine": "~0.2",
+    "karma-phantomjs-launcher": "~0.1",
+    "load-grunt-tasks": "~0.6",
+    "phantomjs": "~1.9",
+    "proxyquireify": "~1.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "simple-socket": "git://github.com/UsabilityTools/simple-socket"
+  }
+}
